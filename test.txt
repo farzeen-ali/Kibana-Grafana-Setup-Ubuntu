@@ -1,0 +1,6 @@
+while true; do
+  echo "$(date) - IP: 192.168.1.50 - ATTACK: SQL-Injection-Attempt" >> logs/security.log
+  sleep 2
+  echo "$(date) - IP: 10.0.0.12 - ATTACK: XSS-Payload-Detected" >> logs/security.log
+  sleep 2
+done
